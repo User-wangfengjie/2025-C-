@@ -1,0 +1,21 @@
+{
+    "model": {
+        "type": "zhipuai",
+        "api_key": "bfec56eafcce4585a8496124112a6a5c.wpRPZevEBDn5Gej7"
+    },
+    "embedding": {
+        "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+        "model_path": "./models/all-MiniLM-L6-v2",
+        "device": "cpu",
+        "huggingface_mirror": "https://hf-mirror.com"
+    },
+    "retrieval": {
+        "vector_store_path": "./data/knowledge_base/vector_store",
+        "top_k": 3
+    },
+    "app": {
+        "title": "竞赛智能客服机器人",
+        "chat_history_path": "./data/chat_history.json",
+        "temp_upload_path": "./data/temp_uploads"
+    }
+} 
